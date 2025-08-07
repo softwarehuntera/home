@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "serve": "^14.2.4"
+  },
+  "homepage": "https://softwarehuntera.github.io/home/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d _site",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}
