@@ -27,8 +27,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  softwarehuntera
 
 # Build settings
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
 
 theme: null
 
@@ -40,6 +40,8 @@ theme: null
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
+include:
+  - assets
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
