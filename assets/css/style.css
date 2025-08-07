@@ -1,5 +1,5 @@
 #banner-image {
-  background-image: url('/assets/img/rainier5.JPG'); /* update path as needed */
+  background-image: url('/home/assets/img/rainier5.JPG'); /* update path as needed */
   background-size: cover;          /* ensures the image covers the section */
   background-position: center;     /* centers the image */
   background-repeat: no-repeat;    /* prevents tiling */
