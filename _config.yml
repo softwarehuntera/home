@@ -30,6 +30,8 @@ github_username:  softwarehuntera
 plugins:
   - jekyll-feed
 
+theme: null
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
