@@ -4,11 +4,11 @@
     "react-scripts": "^5.0.1",
     "serve": "^14.2.4"
   },
-  "homepage": "https://softwarehuntera.github.io/home/",
+
+  "name": "static-site",
+  "version": "1.0.0",
+  "homepage": "https://softwarehuntera.github.io/home",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d _site",
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "deploy": "gh-pages -d dist"
   }
 }
